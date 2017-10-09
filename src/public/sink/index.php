@@ -4,7 +4,7 @@
 		$bytes = strlen($_POST['data']);
 	}
 	if (isset($_GET['data'])) {
-		$bytes = strlen($_POST['data']);
+		$bytes = strlen($_GET['data']);
 	}
 	if (isset($_FILES['data'])) {
 		$bytes = $_FILES['data']['size'];
